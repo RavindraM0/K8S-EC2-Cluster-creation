@@ -8,6 +8,8 @@ Two-node cluster (1 master + 1 worker) on Ubuntu EC2, containerd runtime, Calico
     kubectl apply -f k8s/manifest.yaml -n ravindra
     kubectl get pods -n ravindra -o wide
     kubectl get svc -n ravindra
+## nginx
+    /nginx.png
 
 ## Access
 
